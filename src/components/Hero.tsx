@@ -15,7 +15,7 @@ export const Hero = () => {
           <div className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-8 float-animation">
             <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm text-muted-foreground">
-              AI-Powered Content Creation Platform
+              AI powered content creation platform devoted to minh
             </span>
           </div>
 
@@ -28,7 +28,7 @@ export const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Transform your ideas into compelling marketing copy, blog posts, and social media content 
+            Transform your love into compelling blog posts and social media content 
             with our advanced AI writing assistant.
           </p>
 

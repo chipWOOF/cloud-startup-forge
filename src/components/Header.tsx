@@ -11,7 +11,7 @@ export const Header = () => {
             <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-primary-glow">
               <Sparkles className="w-6 h-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold gradient-text">ContentForge</span>
+            <span className="text-xl font-bold gradient-text">MinhDaRooler</span>
           </div>
 
           {/* Navigation */}

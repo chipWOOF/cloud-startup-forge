@@ -70,10 +70,10 @@ export const Features = () => {
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Everything you need to
-            <span className="gradient-text"> scale your content</span>
+            <span className="gradient-text"> show your love to minh </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Powerful features designed to help you create, optimize, and scale your content marketing efforts.
+            Powerful features designed to help you create, optimize, and scale your devotion to minh.
           </p>
         </div>
 

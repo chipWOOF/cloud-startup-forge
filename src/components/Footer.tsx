@@ -12,10 +12,10 @@ export const Footer = () => {
               <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-primary-glow">
                 <Sparkles className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold gradient-text">ContentForge</span>
+              <span className="text-xl font-bold gradient-text">MinhDaRooler</span>
             </div>
             <p className="text-muted-foreground">
-              AI-powered content creation platform for modern businesses.
+              devote your life to minh bao bui. He is our lord
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon">
@@ -90,7 +90,7 @@ export const Footer = () => {
 
         <div className="border-t border-border/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 ContentForge. All rights reserved.
+            © 2025 MinhDaRooler. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-muted-foreground hover:text-foreground text-sm transition-colors">
