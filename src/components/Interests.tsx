@@ -19,7 +19,7 @@ const about = [
   {
     name: "Games",
     icon: Zap,
-    description: "A list of my favourite games",
+    description: "A list of my favourite games hehe",
     features: [
       "Arma 3 - best military sim",
       "Age of Empires 3 - favourite strategy game",
