@@ -27,6 +27,12 @@ export const PageSlider = () => {
     >
       {/* Starry background */}
       <div className="absolute inset-0 pointer-events-none z-0">
+        <div
+            className="absolute top-16 right-32 w-32 h-32 bg-gradient-to-br from-white via-gray-200 to-gray-400 rounded-full shadow-2xl opacity-80 z-0"
+            style={{
+                boxShadow: "0 0 60px 10px #fff8, 0 0 120px 40px #f3f3f3",
+            }}
+        />
         {/* Simple stars */}
         {[...Array(30)].map((_, i) => (
           <div
