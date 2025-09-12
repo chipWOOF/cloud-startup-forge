@@ -5,14 +5,8 @@ import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       <div className="container mx-auto px-6 relative z-10">
-        <img
-        src="/IMG_1234.JPG"
-        alt="Nighttimecartoon"
-        className="absolute inset-0 w-full h-full object-cover z-0"
-        style={{ pointerEvents: "none" }}
-      />
         <div className="max-w-6xl mx-auto text-center">
 
           {/* Main Heading */}

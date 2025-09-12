@@ -1,7 +1,5 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { AboutME } from "@/components/Interests";
-import { Intro } from "@/components/Intro";
 import { PageSlider } from "@/components/Slider";
 
 const Index = () => {
@@ -10,8 +8,6 @@ const Index = () => {
       <Header />
       <Hero />
       <PageSlider />
-      <Intro />
-      <AboutME />
     </div>
   );
 };
