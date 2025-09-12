@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Sparkles } from "lucide-react";
-import { dir } from "console";
 
 const cards = [
   {
@@ -20,7 +19,7 @@ const cards = [
 
 function Slide({ card }) {
   return (
-    <Card className="relative glass-card border-border/50 hover:-translate-y-2 transition-all duration-300 hover:border-primary/30">
+    <Card className="relative glass-card border-border/50 hover:-translate-y-2 transition-all duration-300 hover:border-primary/30 mx-2">
       <CardHeader className="text-center pb-6">
         <CardTitle className="text-2xl font-bold">{card.title}</CardTitle>
       </CardHeader>
@@ -57,8 +56,24 @@ export const IntroductionText = () => {
             <span className="gradient-text"> Who am I? </span>
           </h2>
         </div>
-        <div>
-          <Slide card={cards[currentCard]} />
+        <div
+          className="overflow-hidden"
+          style={{ width: "100%", maxWidth: "500px", margin: "0 auto", height: "220px" }}
+        >
+          <div
+            className="flex"
+            style={{
+              width: `${cards.length * 100}%`,
+              transform: `translateX(-${currentCard * (100 / cards.length)}%)`,
+              transition: "transform 0.5s cubic-bezier(.68,-0.55,.27,1.55)",
+            }}
+          >
+            {cards.map((card, idx) => (
+              <div key={idx} style={{ width: `${100 / cards.length}%` }}>
+                <Slide card={card} />
+              </div>
+            ))}
+          </div>
         </div>
         <div className="flex justify-center gap-4 mt-8">
           <button onClick={handlePrev} className="glass-card px-4 py-2">Prev</button>
