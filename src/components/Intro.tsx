@@ -51,7 +51,7 @@ export const Intro = () => {
             <div className="container mx-auto px-6">
                 <img
                     src="IMG_4593.jpg"
-                    alt="Profile"
+                    alt="IMG_4593"
                     className="mx-auto mb-8 rounded-full w-40 h-40 object-cover shadow-lg"
                 />
                 <div className="flex flex-wrap justify-center gap-4 mb-16">
