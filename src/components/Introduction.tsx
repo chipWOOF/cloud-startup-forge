@@ -17,15 +17,57 @@ export const IntroductionText = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    {/* Example Card */}
+                    {/* Introduction card */}
                     <Card className="relative glass-card border-border/50 hover:-translate-y-2 transition-all duration-300 hover:border-primary/30">
+                        <CardHeader className="text-center pb-6">
+                            <CardTitle className="text-2xl font-bold">About Me</CardTitle>
+                        </CardHeader>
+
                         <CardContent className  ="space-y-12">
                             <div className="space-y-6">
                                 <div className="flex items-center gap-6">
                                     <div className="p-1 rounded-full bg-primary/20">
                                     </div>
                                 </div>
-                                <span className="text-sm font-semibold">Hi my name is Minh Bao Bui. I am a second year student studying Commerce/Computer Science. Ethnically, I am Vietnamese, my pronouns are He/Him/His. Keep scrolling to learn about my hobbies!</span>
+                                <span className="text-sm font-semibold">Hello! I am Minh Bui, Im a second year student studying Commerce/Computer Science. Ethnically, I am Vietnamese, my pronouns are He/Him/His.</span>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    {/* Ambitions */}
+                    <Card className="relative glass-card border-border/50 hover:-translate-y-2 transition-all duration-300 hover:border-primary/30">
+                        <CardHeader className="text-center pb-6">
+                            <CardTitle className="text-2xl font-bold">Ambitions ✨🌌💫</CardTitle>
+                        </CardHeader>
+                        
+                        <CardContent className  ="space-y-12">
+                            <div className="space-y-6">
+                                <div className="flex items-center gap-6">
+                                    <div className="p-1 rounded-full bg-primary/20">
+                                    </div>
+                                </div>
+                                <span className="text-sm font-semibold">I am a very ambitious person, sometimes my ideas grow faster than I can keep up with. I believe in making meaningful change, would you like to see a few ideas?</span>
+                            </div>
+                        </CardContent>
+                    </Card>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    {/* Dopamine receptors */}
+                    <Card className="relative glass-card border-border/50 hover:-translate-y-2 transition-all duration-300 hover:border-primary/30">
+                        <CardHeader className="text-center pb-6">
+                            <CardTitle className="text-2xl font-bold">My interests and hobbies ✨🌌💫</CardTitle>
+                        </CardHeader>
+                        
+                        <CardContent className  ="space-y-12">
+                            <div className="space-y-6">
+                                <div className="flex items-center gap-6">
+                                    <div className="p-1 rounded-full bg-primary/20">
+                                    </div>
+                                </div>
+                                <span className="text-sm font-semibold">I am a very ambitious person, sometimes my ideas grow faster than I can keep up with. I believe in making meaningful change, would you like to see a few ideas?</span>
                             </div>
                         </CardContent>
                     </Card>
