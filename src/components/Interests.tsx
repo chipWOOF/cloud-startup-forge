@@ -86,9 +86,6 @@ export const AboutME = () => {
                       ? 'bg-gradient-to-r from-primary to-primary-glow' 
                       : 'bg-gradient-to-r from-primary/20 to-primary-glow/20'
                   }`}>
-                    <about.icon className={`w-8 h-8 ${
-                      about.popular ? 'text-primary-foreground' : 'text-primary'
-                    }`} />
                   </div>
                   <CardTitle className="text-2xl font-bold">{about.name}</CardTitle>
                   <CardDescription className="text-muted-foreground">
@@ -113,7 +110,7 @@ export const AboutME = () => {
           </div>
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
-            If you pick me I promise to give even better recommedations!
+            If you pick me I promise to give even better recommedations! (next button below)
           </p>
         </div>
       </div>
