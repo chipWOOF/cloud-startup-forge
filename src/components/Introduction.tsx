@@ -1,5 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Check, Sparkles, Zap, Crown } from "lucide-react";
 
 export const IntroductionText = () => {
@@ -24,10 +23,9 @@ export const IntroductionText = () => {
                             <div className="space-y-3">
                                 <div className="flex items-center gap-3">
                                     <div className="p-1 rounded-full bg-primary/20">
-                                        <Check className="w-3 h-3 text-primary" />
                                     </div>
                                 </div>
-                                <span className="text-sm text-muted-foreground">Hi my name is Minh Bao Bui. I am a second year student studying Commerce/Computer Science. Ethnically, I am Vietnamese, my pronouns are He/Him/His. Click below to find out about my hobbies!</span>
+                                <span className="font-semibold">Hi my name is Minh Bao Bui. I am a second year student studying Commerce/Computer Science. Ethnically, I am Vietnamese, my pronouns are He/Him/His. Keep scrolling to learn about my hobbies!</span>
                             </div>
                         </CardContent>
                     </Card>
