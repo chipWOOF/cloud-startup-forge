@@ -81,11 +81,7 @@ export const AboutME = () => {
                 )}
                 
                 <CardHeader className="text-center pb-6">
-                  <div className={`p-4 rounded-xl w-fit mx-auto mb-4 ${
-                    about.popular 
-                      ? 'bg-gradient-to-r from-primary to-primary-glow' 
-                      : 'bg-gradient-to-r from-primary/20 to-primary-glow/20'
-                  }`}>
+                  <div className="p-4 rounded-xl w-fit mx-auto mb-4">
                   </div>
                   <CardTitle className="text-2xl font-bold">{about.name}</CardTitle>
                   <CardDescription className="text-muted-foreground">
