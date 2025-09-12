@@ -32,18 +32,14 @@ export const Hero = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <div>
-              <Button variant="hero" size="xl" className="group">
-                Get started
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </div>
-            <div>
-              <Button variant="glass" size="lg">
-                Click here for a TLDR
-              </Button>
-            </div>
+          <div className="flex flex-col gap-4 justify-center items-center mb-12">
+            <Button variant="hero" size="xl" className="group">
+              Get started
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <Button variant="glass" size="sm">
+              Click here for a TLDR
+            </Button>
           </div>
 
           {/* Social Media Pills */}
