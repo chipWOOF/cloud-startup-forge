@@ -19,15 +19,17 @@ export const PageSlider = () => {
 
   return (
     <section id="Slider" className="py-24 relative">
-    <div className="overflow-hidden" style={{ width: "100%", maxWidth: "900px", margin: "0 auto", height: "400px" }}>
-      <div
-        className="flex"
+    <div
+        className="overflow-hidden"
         style={{
-          width: `${pages.length * 100}%`,
-          transform: `translateX(-${currentPage * (100 / pages.length)}%)`,
-          transition: "transform 1s cubic-bezier(.68,-0.55,.27,1.55)",
+            width: "100%",
+            maxWidth: "900px",
+            margin: "0 auto",
+            height: "auto", // 
+            minHeight: "400px", //
+            paddingBottom: "64px", // 
         }}
-      >
+    >
         {pages.map((Page, idx) => (
           <div key={idx} style={{ width: `${100 / pages.length}%` }}>
             {Page}
