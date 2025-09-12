@@ -52,16 +52,16 @@ export const IntroductionText = () => {
             }}
           >
             {cards.map((card, idx) => (
-              <div key={idx} style={{ width: "100%" }}>
-                <Card className="relative glass-card border-border/50 mx-2">
-                  <CardHeader className="text-center pb-6">
-                    <CardTitle className="text-2xl font-bold">{card.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <span className="text-sm font-semibold">{card.content}</span>
-                  </CardContent>
-                </Card>
-              </div>
+                <div key={idx} style={{ width: `${100 / cards.length}%` }}>
+                    <Card className="relative glass-card border-border/50 mx-2">
+                    <CardHeader className="text-center pb-6">
+                        <CardTitle className="text-2xl font-bold">{card.title}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                        <span className="text-sm font-semibold">{card.content}</span>
+                    </CardContent>
+                    </Card>
+                </div>
             ))}
           </div>
         </div>
