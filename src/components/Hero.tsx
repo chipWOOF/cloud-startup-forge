@@ -27,9 +27,15 @@ export const Hero = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <Button variant="glass" size="sm">
               Click here for a TLDR
             </Button>
+            </a>
           </nav>
 
           {/* Social Media Pills */}
