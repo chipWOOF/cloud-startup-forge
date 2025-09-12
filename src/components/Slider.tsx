@@ -25,9 +25,8 @@ export const PageSlider = () => {
             width: "100%",
             maxWidth: "900px",
             margin: "0 auto",
-            height: "auto", // <-- Change this line
-            minHeight: "400px", // Optional: ensures a minimum height
-            paddingBottom: "64px", // Optional: adds space for buttons
+            height: "auto",
+            minHeight: "400px", 
         }}
     >
       <div
