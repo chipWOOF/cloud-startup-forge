@@ -27,7 +27,7 @@ const about = [
       "Truck Simulator - I love trucks",
       "drunk driver sumulator - accurate and realistic"
     ],
-    popular: true
+    popular: false
   },
   {
     name: "Music",
