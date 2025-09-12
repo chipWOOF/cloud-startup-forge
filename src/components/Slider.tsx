@@ -25,11 +25,19 @@ export const PageSlider = () => {
             width: "100%",
             maxWidth: "900px",
             margin: "0 auto",
-            height: "auto", // 
-            minHeight: "400px", //
-            paddingBottom: "64px", // 
+            height: "auto", // <-- Change this line
+            minHeight: "400px", // Optional: ensures a minimum height
+            paddingBottom: "64px", // Optional: adds space for buttons
         }}
     >
+      <div
+        className="flex"
+        style={{
+          width: `${pages.length * 100}%`,
+          transform: `translateX(-${currentPage * (100 / pages.length)}%)`,
+          transition: "transform 1s cubic-bezier(.68,-0.55,.27,1.55)",
+        }}
+      >
         {pages.map((Page, idx) => (
           <div key={idx} style={{ width: `${100 / pages.length}%` }}>
             {Page}
