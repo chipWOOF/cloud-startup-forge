@@ -5,6 +5,7 @@ import { Pricing } from "@/components/Pricing";
 import { Footer } from "@/components/Footer";
 import { AboutME } from "@/components/Interests";
 import { Intro } from "@/components/Intro";
+import { PageSlider } from "@/components/Slider";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Header />
       <Hero />
       <Intro />
+      <PageSlider />
       <AboutME />
       <Features />
       <Pricing />
