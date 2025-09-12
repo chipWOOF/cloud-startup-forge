@@ -8,7 +8,7 @@ export const Hero = () => {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       <div className="container mx-auto px-6 relative z-10">
         <img
-        src="/Nighttimecartoon.jpg"
+        src="/IMG_1234.JPG"
         alt="Nighttimecartoon"
         className="absolute inset-0 w-full h-full object-cover z-0"
         style={{ pointerEvents: "none" }}
