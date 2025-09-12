@@ -25,7 +25,7 @@ function Slide({ card }) {
       </CardHeader>
       <CardContent className="space-y-12">
         <div className="space-y-6">
-          <span className="text-sm font-semibold">{card.content}</span>
+            <span className="text-sm font-semibold">{card.content}</span>
         </div>
       </CardContent>
     </Card>
