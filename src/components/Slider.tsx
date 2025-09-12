@@ -18,42 +18,80 @@ export const PageSlider = () => {
   }
 
   return (
-    <section
-      id="Slider"
-      className="py-24 relative overflow-hidden"
-      style={{
-        background: "linear-gradient(135deg, #1e293b 0%, #64748b 100%)",
-      }}
-    >
-      {/* Starry background */}
-      <div className="absolute inset-0 pointer-events-none z-0">
+        <section
+        id="Slider"
+        className="py-24 relative overflow-hidden"
+        style={{
+            background: "#1a202c",
+        }}
+        >
+        {/* Starry background */}
+        <div className="absolute inset-0 pointer-events-none z-0">
+        {/* Very bad quality moon */}
         <div
-            className="absolute top-16 right-32 w-32 h-32 bg-gradient-to-br from-white via-gray-200 to-gray-400 rounded-full shadow-2xl opacity-80 z-0"
+        className="absolute top-16 right-32 w-32 h-32 rounded-full"
+        style={{
+            background: "#f3f3f3",
+            border: "2px solid #e2e8f0",
+        }}
+        >
+        {/* Craters */}
+        <div
             style={{
-                boxShadow: "0 0 60px 10px #fff8, 0 0 120px 40px #f3f3f3",
+            position: "absolute",
+            top: "30px",
+            left: "20px",
+            width: "18px",
+            height: "18px",
+            background: "#cbd5e1",
+            borderRadius: "50%",
+            opacity: 0.7,
             }}
         />
+        <div
+            style={{
+            position: "absolute",
+            top: "60px",
+            left: "60px",
+            width: "10px",
+            height: "10px",
+            background: "#a0aec0",
+            borderRadius: "50%",
+            opacity: 0.5,
+            }}
+        />
+        <div
+            style={{
+            position: "absolute",
+            top: "80px",
+            left: "40px",
+            width: "8px",
+            height: "8px",
+            background: "#e2e8f0",
+            borderRadius: "50%",
+            opacity: 0.6,
+            }}
+        />
+        </div>
         {/* Simple stars */}
         {[...Array(30)].map((_, i) => (
-          <div
-            key={i}
+        <div
+        key={i}
             className="absolute bg-white rounded-full"
             style={{
-              width: `${Math.random() * 2 + 1}px`,
-              height: `${Math.random() * 2 + 1}px`,
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
-              opacity: Math.random() * 0.7 + 0.3,
-              filter: "blur(0.5px)",
+            width: `${Math.random() * 2 + 1}px`,
+            height: `${Math.random() * 2 + 1}px`,
+            top: `${Math.random() * 100}%`,
+            left: `${Math.random() * 100}%`,
+            opacity: Math.random() * 0.7 + 0.3,
+            filter: "blur(0.5px)",
             }}
-          />
+        />
         ))}
-        {/* Dreamy clouds */}
-        <div className="absolute top-10 left-1/4 w-72 h-32 bg-white/20 rounded-full blur-2xl opacity-70" />
-        <div className="absolute bottom-20 right-1/3 w-96 h-40 bg-white/10 rounded-full blur-3xl opacity-60" />
-        <div className="absolute top-1/2 left-2/3 w-56 h-24 bg-white/15 rounded-full blur-2xl opacity-50" />
-      </div>
-
+        {/* Clouds (optional, can remove for even simpler look) */}
+        <div className="absolute top-10 left-1/4 w-72 h-32 bg-white/10 rounded-full blur-2xl opacity-40" />
+        <div className="absolute bottom-20 right-1/3 w-96 h-40 bg-white/10 rounded-full blur-3xl opacity-30" />
+    </div>
       <div className="relative z-10">
         <div
           className="overflow-hidden"
