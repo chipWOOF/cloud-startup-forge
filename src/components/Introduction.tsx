@@ -25,7 +25,7 @@ export const IntroductionText = () => {
                                     <div className="p-1 rounded-full bg-primary/20">
                                     </div>
                                 </div>
-                                <span className="text-lg text-muted-foreground font-semibold">Hi my name is Minh Bao Bui. I am a second year student studying Commerce/Computer Science. Ethnically, I am Vietnamese, my pronouns are He/Him/His. Keep scrolling to learn about my hobbies!</span>
+                                <span className="text-lg font-semibold">Hi my name is Minh Bao Bui. I am a second year student studying Commerce/Computer Science. Ethnically, I am Vietnamese, my pronouns are He/Him/His. Keep scrolling to learn about my hobbies!</span>
                             </div>
                         </CardContent>
                     </Card>
