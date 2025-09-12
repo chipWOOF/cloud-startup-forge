@@ -22,7 +22,7 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <nav className="flex flex-col gap-4 justify-center items-center mb-12">
-            <a href="#Slider" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#Introduction" className="text-muted-foreground hover:text-foreground transition-colors">
               <Button variant="hero" size="xl" className="group">
                 Get started
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -62,31 +62,6 @@ export const Hero = () => {
               <FaLinkedin className="w-4 h-4 text-primary" />
               <span className="text-sm">LinkedIn</span>
             </a>
-          </div>
-
-          {/* Dashboard Preview */}
-          <div className="relative">
-            <div className="glass-card p-4 rounded-2xl glow-effect">
-              <div className="bg-gradient-to-br from-card to-card/50 rounded-xl p-8 border border-border/50">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="space-y-3">
-                    <div className="h-4 bg-primary/20 rounded w-3/4"></div>
-                    <div className="h-3 bg-muted rounded w-full"></div>
-                    <div className="h-3 bg-muted rounded w-5/6"></div>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="h-4 bg-primary/20 rounded w-2/3"></div>
-                    <div className="h-3 bg-muted rounded w-full"></div>
-                    <div className="h-3 bg-muted rounded w-4/5"></div>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="h-4 bg-primary/20 rounded w-1/2"></div>
-                    <div className="h-3 bg-muted rounded w-full"></div>
-                    <div className="h-3 bg-muted rounded w-3/4"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

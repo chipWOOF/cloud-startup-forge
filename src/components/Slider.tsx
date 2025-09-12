@@ -3,8 +3,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Sparkles } from "lucide-react";
 import { AboutME } from "@/components/Interests";
 import { Intro } from "@/components/Intro";
+import { Hero } from "@/components/Hero"
 
-const pages = [<Intro />, <AboutME />];
+const pages = [<Hero />, <Intro />, <AboutME />];
 
 export const PageSlider = () => {
   const [currentPage, setCurrentPage] = useState(0);
