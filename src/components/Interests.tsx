@@ -37,7 +37,7 @@ const about = [
       "Baedeedoodeebee - love to listen with a matcha",
       "The Weeknd",
       "Olivia Rodrigo - go to careoke",
-      "Darren Styles - who doesn't love hardstyle",
+      "HOW TO TRAIN YOUR DRAGONS DO I HAVE TO SAY MORE??????",
       "The neighbourhood - cmon who doesn't love Sweater Weather"
     ],
     popular: false

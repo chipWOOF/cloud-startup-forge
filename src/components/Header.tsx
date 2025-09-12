@@ -8,10 +8,7 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-primary-glow">
-              <Sparkles className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold gradient-text">MinhDaRooler</span>
+            <span className="text-xl font-bold ">MinhDaRooler</span>
           </div>
 
           {/* Navigation */}
