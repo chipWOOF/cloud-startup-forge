@@ -13,13 +13,6 @@ export const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto text-center">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-8 float-animation">
-            <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm text-muted-foreground">
-              AI powered content creation platform devoted to minh
-            </span>
-          </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
@@ -32,15 +25,17 @@ export const Hero = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="xl" className="group">
-              Get started
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+          <nav className="flex flex-col gap-4 justify-center items-center mb-12">
+            <a href="#IntroductionText" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Button variant="hero" size="xl" className="group">
+                Get started
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
             <Button variant="glass" size="sm">
               Click here for a TLDR
             </Button>
-          </div>
+          </nav>
 
           {/* Social Media Pills */}
           <div className="flex flex-wrap justify-center gap-4 mb-16">
