@@ -49,6 +49,11 @@ export const Intro = () => {
             </div>
 
             <div className="container mx-auto px-6">
+                <img
+                    src="IMG_4593.jpg"
+                    alt="Profile"
+                    className="mx-auto mb-8 rounded-full w-40 h-40 object-cover shadow-lg"
+                />
                 <div className="flex flex-wrap justify-center gap-4 mb-16">
                     <a
                         href="https://www.instagram.com/minhbooey/"
