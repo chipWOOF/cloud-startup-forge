@@ -169,23 +169,3 @@
     box-shadow: var(--shadow-glow);
   }
 }
-
-.slider-container {
-  overflow: hidden; /* Hides content outside the container */
-  width: 100%; /* Adjust as needed */
-  height: 100px; /* Adjust as needed */
-}
-
-.slide-content {
-  animation: slideFromLeft 5s infinite linear; /* Applies the animation */
-  white-space: nowrap; /* Prevents content from wrapping */
-}
-
-@keyframes slideFromLeft {
-  0% {
-    transform: translateX(-100%); /* Starts off-screen to the left */
-  }
-  100% {
-    transform: translateX(100%); /* Moves across to the right and off-screen */
-  }
-}
