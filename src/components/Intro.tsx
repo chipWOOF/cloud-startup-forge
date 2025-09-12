@@ -1,6 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
-import { MyLogo } from "@/Logos";
 
 const about = [
   {
@@ -78,9 +77,6 @@ export const Intro = () => {
                         <FaLinkedin className="w-4 h-4 text-primary" />
                         <span className="text-sm">LinkedIn</span>
                     </a>
-                    <div className="App">
-                        <img src={MyLogo} alt="logo image" height={200} width={200} />
-                    </div>
                 </div>
             </div>
         </section>
