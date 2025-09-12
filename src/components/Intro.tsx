@@ -1,12 +1,18 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Check, Sparkles, Zap, Crown } from "lucide-react";
+import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+import react from "react";
+import logo from "./IMG_4593.jpg";
 
 const about = [
   {
-    name: "Movies",
+    name: "Who am I?",
+
     content: "Hello! I am Minh Bui, I'm a second year student studying Commerce/Computer Science. Ethnically, I am Vietnamese, my pronouns are He/Him/His.",
   },
+  {
+    name: "My Website",
+    content: "Simply click the next button to continue exploring my biography"
+  }
 ];
 
 export const Intro = () => {
@@ -37,10 +43,45 @@ export const Intro = () => {
                     </Card>
                 ))}
             </div>
-                <div className="text-center mt-12">
-                    <p className="text-muted-foreground mb-4">
-                        If you pick me I promise to give even better recommedations!
-                    </p>
+            <div className="text-center mt-12">
+                <p className="text-muted-foreground mb-4">
+                    Enjoy this photo of my dog and some links to my socials!
+                </p>
+            </div>
+            </div>
+
+            <div className="container mx-auto px-6">
+                <div className="flex flex-wrap justify-center gap-4 mb-16">
+                    <a
+                        href="https://www.instagram.com/minhbooey/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 glass-card px-4 py-2"
+                    >
+                        <FaInstagram className="w-4 h-4 text-primary" />
+                        <span className="text-sm">Instagram</span>
+                    </a>
+                    <a
+                        href="https://www.youtube.com/@minhyboi157"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 glass-card px-4 py-2"
+                    >
+                        <FaYoutube className="w-4 h-4 text-primary" />
+                        <span className="text-sm">Youtube</span>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/minh-bui-aa533b2b9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 glass-card px-4 py-2"
+                    >
+                        <FaLinkedin className="w-4 h-4 text-primary" />
+                        <span className="text-sm">LinkedIn</span>
+                    </a>
+                    <div className="App">
+                        <img src={logo} alt="logo image" height={200} width={200} />
+                    </div>
                 </div>
             </div>
         </section>
