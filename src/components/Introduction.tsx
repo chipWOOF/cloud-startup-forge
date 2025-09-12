@@ -65,7 +65,7 @@ export const IntroductionText = () => {
             style={{
               width: `${cards.length * 100}%`,
               transform: `translateX(-${currentCard * (100 / cards.length)}%)`,
-              transition: "transform 0.5s cubic-bezier(.68,-0.55,.27,1.55)",
+              transition: "transform 1.5s cubic-bezier(.68,-0.55,.27,1.55)",
             }}
           >
             {cards.map((card, idx) => (
