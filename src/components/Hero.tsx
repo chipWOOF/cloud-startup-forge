@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Zap, Target } from "lucide-react";
+import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+
 
 export const Hero = () => {
   return (
@@ -48,7 +50,7 @@ export const Hero = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 glass-card px-4 py-2"
             >
-              <Sparkles className="w-4 h-4 text-primary" />
+              <FaInstagram className="w-4 h-4 text-primary" />
               <span className="text-sm">Instagram</span>
             </a>
             <a
@@ -57,16 +59,16 @@ export const Hero = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 glass-card px-4 py-2"
             >
-              <Zap className="w-4 h-4 text-primary" />
+              <FaYoutube className="w-4 h-4 text-primary" />
               <span className="text-sm">Youtube</span>
             </a>
             <a
-              href="www.linkedin.com/in/minh-bui-aa533b2b9"
+              href="https://www.linkedin.com/in/minh-bui-aa533b2b9"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 glass-card px-4 py-2"
             >
-              <Target className="w-4 h-4 text-primary" />
+              <FaLinkedin className="w-4 h-4 text-primary" />
               <span className="text-sm">LinkedIn</span>
             </a>
           </div>
