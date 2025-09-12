@@ -21,42 +21,54 @@ export const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Create
-            <span className="gradient-text"> Stunning Content </span>
-            in Seconds
+            Welcome to my website!
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Transform your love into compelling blog posts and social media content 
-            with our advanced AI writing assistant.
+            Here you can learn all about me, my interests and my dreams.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button variant="hero" size="xl" className="group">
-              Start Creating Now
+              Get started
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="glass" size="xl">
-              Watch Demo
+              Click here for a TLDR
             </Button>
           </div>
 
-          {/* Feature Pills */}
+          {/* Social Media Pills */}
           <div className="flex flex-wrap justify-center gap-4 mb-16">
-            <div className="flex items-center gap-2 glass-card px-4 py-2">
-              <Zap className="w-4 h-4 text-primary" />
-              <span className="text-sm">Lightning Fast</span>
-            </div>
-            <div className="flex items-center gap-2 glass-card px-4 py-2">
-              <Target className="w-4 h-4 text-primary" />
-              <span className="text-sm">SEO Optimized</span>
-            </div>
-            <div className="flex items-center gap-2 glass-card px-4 py-2">
+            <a
+              href="https://www.instagram.com/minhbooey/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 glass-card px-4 py-2"
+            >
               <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm">AI-Powered</span>
-            </div>
+              <span className="text-sm">Instagram</span>
+            </a>
+            <a
+              href="https://www.youtube.com/@minhyboi157"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 glass-card px-4 py-2"
+            >
+              <Zap className="w-4 h-4 text-primary" />
+              <span className="text-sm">Youtube</span>
+            </a>
+            <a
+              href="www.linkedin.com/in/minh-bui-aa533b2b9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 glass-card px-4 py-2"
+            >
+              <Target className="w-4 h-4 text-primary" />
+              <span className="text-sm">LinkedIn</span>
+            </a>
           </div>
 
           {/* Dashboard Preview */}

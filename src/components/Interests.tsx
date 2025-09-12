@@ -54,7 +54,7 @@ export const AboutME = () => {
                     <span className="text-sm text-muted-foreground">About Me</span>
                   </div>
                   <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                    All about me
+                    All about Minh Bao Bui
                     <span className="gradient-text"> the best trainee candidate (PLEASE PICK ME) </span>
                   </h2>
                   <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
