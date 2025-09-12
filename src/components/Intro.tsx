@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
-import react from "react";
-import logo from "./IMG_4593.jpg";
+import React from "react";
+import logo from "../IMG_4593.jpg";
 
 const about = [
   {
