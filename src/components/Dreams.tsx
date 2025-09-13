@@ -9,7 +9,7 @@ const about = [
   },
   {
     name: "What do I want to achieve in the next 5 years?",
-    content: "One thing I want to achieve in the next 5 years is: get an int**nship, get a j*b. Some more short term goals include getting into the Devsoc 2025 T3 webdev training programing (PLEEEEEEEEEEEEEEEAAAAASEEEEEE🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏)"
+    content: "One thing I want to achieve in the next 5 years is: get an int**nship, get a j*b. Some more short term goals include getting into the Devsoc 2025 T3 webdev training programing (PLEEEEEEEEAAAAASEEEEEE🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏)"
   },
   {
     name: "My dreams",
@@ -52,11 +52,6 @@ export const Dreams = () => {
             </div>
 
             <div className="container mx-auto px-6">
-                <img
-                    src="/IMG_4593.JPG"
-                    alt="IMG_4593"
-                    className="mx-auto mb-8 rounded-full w-40 h-40 object-cover shadow-lg"
-                />
                 <div className="flex flex-wrap justify-center gap-4 mb-16">
                     <a
                         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -68,6 +63,11 @@ export const Dreams = () => {
                     </Button>
                     </a>
                 </div>
+            </div>
+            <div className="text-center mt-12">
+                <p className="text-muted-foreground mb-4">
+                    In all seriousness, thank you for takng the time to go through my website, I hope you now know a little bit more about me!
+                </p>
             </div>
         </section>
     );
