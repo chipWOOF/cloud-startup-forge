@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Sparkles } from "lucide-react";
 import { AboutME } from "@/components/Interests";
 import { Intro } from "@/components/Intro";
+import { Dreams } from "@/components/Dreams";
 
-const pages = [<Intro />, <AboutME />];
+const pages = [<Intro />, <AboutME />, <Dreams />];
 
 export const PageSlider = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -27,7 +26,7 @@ export const PageSlider = () => {
         >
         {/* Starry background */}
         <div className="absolute inset-0 pointer-events-none z-0">
-        {/* Very bad quality moon */}
+        {/* Moon */}
         <div
         className="absolute top-16 right-32 w-32 h-32 rounded-full"
         style={{
@@ -73,7 +72,7 @@ export const PageSlider = () => {
             }}
         />
         </div>
-        {/* Simple stars */}
+        {/* Stars */}
         {[...Array(30)].map((_, i) => (
         <div
         key={i}
@@ -88,7 +87,7 @@ export const PageSlider = () => {
             }}
         />
         ))}
-        {/* Clouds (optional, can remove for even simpler look) */}
+        {/* Glowing blobs */}
         <div className="absolute top-10 left-1/4 w-72 h-32 bg-white/10 rounded-full blur-2xl opacity-40" />
         <div className="absolute bottom-20 right-1/3 w-96 h-40 bg-white/10 rounded-full blur-3xl opacity-30" />
     </div>
