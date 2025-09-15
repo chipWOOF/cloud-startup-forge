@@ -106,7 +106,7 @@ export const AboutME = () => {
           </div>
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
-            If you pick me I promise to give even better recommedations! (next button below)
+            If you pick me I promise to give even better recommedations!
           </p>
         </div>
       </div>

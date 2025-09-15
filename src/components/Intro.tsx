@@ -43,7 +43,7 @@ export const Intro = () => {
             </div>
             <div className="text-center mt-12">
                 <p className="text-muted-foreground mb-4">
-                    Enjoy this photo of my dog and some links to my socials! (next button below)
+                    Enjoy this photo of my dog and some links to my socials!
                 </p>
             </div>
             </div>

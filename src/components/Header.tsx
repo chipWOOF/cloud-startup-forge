@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -13,15 +14,9 @@ export const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="#home" className="text-muted-foreground hover:text-foreground transition-colors">
               Home
-            </a>
-            <a href="#Introduction" className="text-muted-foreground hover:text-foreground transition-colors">
-              Introduction
-            </a>
-            <a href="#About Me" className="text-muted-foreground hover:text-foreground transition-colors">
-              Hobbies
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
