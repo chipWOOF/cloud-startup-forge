@@ -27,7 +27,7 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <nav className="flex flex-col gap-4 justify-center items-center mb-12">
-            <a href="#Introduction" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="https://minhdarooler.vercel.app/scroll" className="text-muted-foreground hover:text-foreground transition-colors">
               <Button variant="hero" size="xl" className="group">
                 Get started
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
