@@ -51,11 +51,6 @@ export const Projectlist = () => {
                     </Card>
                 ))}
             </div>
-            <div className="text-center mt-12">
-                <p className="text-muted-foreground mb-4">
-                    Click the button below to see something funny!
-                </p>
-            </div>
             </div>
         </section>
     );

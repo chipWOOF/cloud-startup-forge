@@ -49,10 +49,6 @@ export const AboutME = () => {
       <section id="About Me" className="py-24 relative">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-6">
-              <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm text-muted-foreground">About Me</span>
-            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               All about Minh Bao Bui
               <span className="gradient-text"> the best trainee candidate (PLEASE PICK ME) </span>
