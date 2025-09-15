@@ -14,7 +14,7 @@ export const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/index" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
               Home
             </Link>
           </nav>
