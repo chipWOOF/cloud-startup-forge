@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Zap, Target } from "lucide-react";
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";  
 
 
 export const Hero = () => {
@@ -27,12 +28,12 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <nav className="flex flex-col gap-4 justify-center items-center mb-12">
-            <a href="/scroll" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="/scroll" className="text-muted-foreground hover:text-foreground transition-colors">
               <Button variant="hero" size="xl" className="group">
                 Get started
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-            </a>
+            </Link>
             <a
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
