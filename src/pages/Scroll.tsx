@@ -2,7 +2,7 @@ import { PageSlider } from "@/components/Slider";
 import { Header } from "@/components/Header";
 
 
-const Index = () => {
+const Scroll = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -11,4 +11,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Scroll;
