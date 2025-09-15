@@ -57,38 +57,6 @@ export const Projectlist = () => {
                 </p>
             </div>
             </div>
-
-            <div className="container mx-auto px-6">
-                <div className="flex flex-wrap justify-center gap-4 mb-16">
-                    <a
-                        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                    <Button variant="glass" size="sm">
-                        DO NOT CLICK THIS BUTTON (it will literally nuke the entire site and destroy my hard work)
-                    </Button>
-                    </a>
-                </div>
-            </div>
-            <div className="text-center mt-12">
-                <p className="text-muted-foreground mb-4">
-                    In all seriousness, thank you for takng the time to go through my website, I hope you now know a little bit more about me!
-                </p>
-            </div>
-            <div className="container mx-auto px-6">
-                <div className="flex flex-wrap justify-center gap-4 mb-16">
-                    <a
-                        href="https://youtu.be/RTDYMs5-htU?si=OdGHoAPXu2ziOuOE"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                    <Button variant="glass" size="sm">
-                        Click here to watch 10 year old me discover my musical prowess
-                    </Button>
-                    </a>
-                </div>
-            </div>
         </section>
     );
 }
