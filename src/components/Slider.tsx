@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { AboutME } from "@/components/Interests";
 import { Intro } from "@/components/Intro";
 import { Dreams } from "@/components/Dreams";
+import { Projectlist } from "./Projectlist";
 
-const pages = [<Intro />, <AboutME />, <Dreams />];
+const pages = [<Intro />, <AboutME />, <Dreams />, <Projectlist />];
 
 export const PageSlider = () => {
   const [currentPage, setCurrentPage] = useState(0);
