@@ -39,9 +39,13 @@ export const Projectlist = () => {
                             <div className="space-y-6">
                                 <span className="text-sm font-semibold">{about.content}</span>
                             </div>
-                            <Link to={about.link} className="text-primary underline">
-                                {about.link}
-                            </Link>
+                            <nav className="flex flex-col gap-4 justify-center items-center mb-12">
+                                <Link to={about.link} className="text-primary underline">
+                                    <Button variant="hero" size="lg" className="group">
+                                        Click here to see
+                                    </Button>
+                                </Link>
+                            </nav> 
                             <img src={about.img} alt={about.name} className="w-full h-auto rounded-lg mt-4" />
                         </CardContent>
                     </Card>
