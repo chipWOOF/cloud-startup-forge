@@ -7,11 +7,13 @@ const about = [
     name: "First Place 🥇, Mechatronics Buildathon",
     content: "My team and I placed first place overall and won the first year award for the Buildathon Competition 2024! We were tasked with creating a robot that could bring benefit to society. To do this, we created a robot designed to help combat the dangerous bushfires in Australia. Our robot is capable of providing real-time updates on its surrounding environment, uses GPS for precise location tracking, Solar powered, and comes with a built-in speaker to warn locals of incoming hazards.",
     img: "https://media.licdn.com/dms/image/v2/D4D2DAQEJsfxWMB8FEw/profile-treasury-image-shrink_800_800/B4DZUmaREBHAAY-/0/1740106177554?e=1758520800&v=beta&t=LG-wopjKUu4P5DjkK1vgUiMo8JsTXuo7koLs_51avjM",
+    link: "https://www.linkedin.com/in/minh-bui-aa533b2b9/details/honors/1740106190570/single-media-viewer/?profileId=ACoAAExm910By-GPWB2vl-SMWSZgVBk13F5Itcc",
   },
   {
     name: "CSESOC 2025 Hackathon Finalist 🏆🎖️",
     content: "I was part of a team that made it to the finals of the CSESOC 2025 Hackathon! We created a website called Ping. Ping allowed students to connect with each other based on the subjects they were studying. Users would simply upload a location and the subjects they were studying, and Ping would match them with other students studying the same subject in the same location. This allowed students to easily find study partners and form study groups.", 
     link: "https://ping-mauve.vercel.app/",
+    img: "https://ping-mauve.vercel.app/ping-logo.png",
   }
 ];
 
