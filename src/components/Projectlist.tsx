@@ -23,7 +23,7 @@ export const Projectlist = () => {
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                        <span className="gradient-text"> My Dreams </span>
+                        <span className="gradient-text"> My projects </span>
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
                     </p>

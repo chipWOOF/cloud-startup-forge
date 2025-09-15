@@ -103,6 +103,10 @@ export const PageSlider = () => {
             minHeight: "400px",
           }}
         >
+          <div className="flex justify-center gap-4 mt-8">
+            <button onClick={handlePrev} className="glass-card px-4 py-2">Prev</button>
+            <button onClick={handleNext} className="glass-card px-4 py-2">Next</button>
+          </div>
           <div
             className="flex"
             style={{
@@ -116,10 +120,6 @@ export const PageSlider = () => {
                 {Page}
               </div>
             ))}
-          </div>
-          <div className="flex justify-center gap-4 mt-8">
-            <button onClick={handlePrev} className="glass-card px-4 py-2">Prev</button>
-            <button onClick={handleNext} className="glass-card px-4 py-2">Next</button>
           </div>
         </div>
       </div>
